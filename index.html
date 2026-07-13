@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Empedrada Catalogo Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="imagenes/logo.png" alt="Kiosko La Empedrada">
+        </a>
+        <div class="buscador">
+            <input type="text" id="barraBusqueda" placeholder="Buscar productos...">
+            <div id="sugerencias" class="sugerencias"></div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="#ubicacion">
+                        Ubicación
+                    </a>
+                </li>
+                <li>
+                    <a href="#contacto">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="catalogo">
+        <aside class="categorias">
+            <h2>Categorías</h2>
+            <ul>
+                <li data-categoria="Todos">Todos</li>
+                <li data-categoria="Sopas">Sopas</li>
+                <li data-categoria="Galletas">Galletas</li>
+                <li data-categoria="Dulces">Dulces</li>
+                <li data-categoria="Bebidas">Bebidas</li>
+                <li data-categoria="Botanas">Botanas</li>
+            </ul>
+        </aside>
+        <section class="productos" id="productos">
+        </section>
+    </section>
+</main>
+<script src="js/productos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
