@@ -359,8 +359,8 @@ main{
     }
 
     .catalogo{
-        padding:0 15px;
-    }
+        width:100%;
+    }   
 
     .categorias{
         position:relative;
