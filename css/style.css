@@ -155,8 +155,7 @@ html,body{
 
 .tarjeta-producto img{
     width:100%;
-    height:auto;
-    aspect-ratio:1/1;
+    height:120px;
     object-fit:contain;
     padding:15px;
 }
@@ -379,6 +378,11 @@ main{
 
     .tarjeta-producto h3{
         font-size:14px;
+    }
+
+    .tarjeta-producto img{
+        height:90px;
+        padding:10px;
     }
 
     .precio{
