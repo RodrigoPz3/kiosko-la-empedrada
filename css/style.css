@@ -134,8 +134,9 @@ html,body{
 
 .productos{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns:repeat(3, minmax(0,1fr));
     gap:22px;
+    width:100%;
 }
 
 .tarjeta-producto{
@@ -360,7 +361,10 @@ main{
 
     .catalogo{
         width:100%;
-    }   
+        max-width:100%;
+        padding:0 15px;
+        display:block;
+    } 
 
     .categorias{
         position:relative;
