@@ -359,9 +359,9 @@ main{
     .catalogo{
         width:100%;
         max-width:100%;
-        padding:0 15px;
+        padding:35px 15px 0;
         display:block;
-    } 
+    }
 
     .categorias{
         position:relative;
