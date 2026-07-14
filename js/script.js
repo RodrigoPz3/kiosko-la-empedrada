@@ -70,3 +70,26 @@ productos.forEach((producto, index) => {
 });
 
 categorias[0].classList.add("activa");
+
+let ultimoScroll = 0;
+
+window.addEventListener("scroll", () => {
+
+    const navbar = document.querySelector(".navbar");
+    const actual = window.scrollY;
+
+    if(actual > 100){
+
+        if(actual > ultimoScroll){
+            navbar.classList.add("oculta-nav");
+        }else{
+            navbar.classList.remove("oculta-nav");
+        }
+
+    }else{
+        navbar.classList.remove("oculta-nav");
+    }
+
+    ultimoScroll = actual;
+
+});
