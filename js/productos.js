@@ -176,28 +176,28 @@ const productos = [
     },
     {
         nombre: "Binggrae Fresa 200ml",
-        precio: 36,
+        precio: 35,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/binggrae-fresa-200ml.webp",
         disponible: false
     },
     {
         nombre: "Binggrae Cafe 200ml",
-        precio: 36,
+        precio: 35,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/binggrae-cafe-200ml.webp",
         disponible: true
     },
     {
         nombre: "Binggrae Taro 200ml",
-        precio: 36,
+        precio: 35,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/binggrae-taro-200ml.webp",
         disponible: true
     },
     {
         nombre: "Binggrae Banana 200ml",
-        precio: 36,
+        precio: 35,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/binggrae-banana-200ml.webp",
         disponible: true
@@ -225,28 +225,28 @@ const productos = [
     },
     {
         nombre: "Bourbon Petit Galletas Matcha 40gr",
-        precio: 23,
+        precio: 22,
         categoria: "Galletas",
         imagen: "../imagenes/productos/bourbon-petit-galletas-matcha-40gr.webp",
         disponible: true
     },
     {
         nombre: "Bourbon Petit Galletas Mantequilla 42gr",
-        precio: 23,
+        precio: 22,
         categoria: "Galletas",
         imagen: "../imagenes/productos/bourbon-petit-galletas-mantequilla-42gr.webp",
         disponible: true
     },
     {
         nombre: "Cantabile Sandia 230ml",
-        precio: 29,
+        precio: 28,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/cantabile-sandia-230ml.webp",
         disponible: true
     },
     {
         nombre: "Cantabile Cafe Vainilla 230ml",
-        precio: 29,
+        precio: 28,
         categoria: "Bebidas",
         imagen: "../imagenes/productos/cantabile-cafe-vainilla-230ml.webp",
         disponible: true
