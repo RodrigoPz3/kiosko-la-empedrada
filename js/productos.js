@@ -1,35 +1,35 @@
 const productos = [
     {
         nombre: "Buldak Ramen Carbonara 130gr",
-        precio: 39,
+        precio: 38,
         categoria: "Sopas",
         imagen: "../imagenes/productos/buldak-ramen-carbonara-130gr.webp",
         disponible: true
     },
     {
         nombre: "Buldak Ramen Cream Carbonara 140gr",
-        precio: 39,
+        precio: 38,
         categoria: "Sopas",
         imagen: "../imagenes/productos/buldak-ramen-cream-carbonara-140gr.webp",
-        disponible: true
+        disponible: false
     },
     {
         nombre: "Buldak Ramen 2x 140gr",
-        precio: 39,
+        precio: 38,
         categoria: "Sopas",
         imagen: "../imagenes/productos/buldak-ramen-2x-140gr.webp",
         disponible: true
     },
     {
         nombre: "Buldak Ramen original 140gr",
-        precio: 39,
+        precio: 38,
         categoria: "Sopas",
         imagen: "../imagenes/productos/buldak-ramen-original-140gr.webp",
         disponible: true
     },
     {
         nombre: "Buldak Ramen Carbonara cup 80gr",
-        precio: 39,
+        precio: 38,
         categoria: "Sopas",
         imagen: "../imagenes/productos/buldak-ramen-carbonara-cup-80gr.webp",
         disponible: true
@@ -43,14 +43,14 @@ const productos = [
     },
     {
         nombre: "Pocky Chocolate 45gr",
-        precio: 43,
+        precio: 42,
         categoria: "Galletas",
         imagen: "../imagenes/productos/pocky-chocolate-40gr.webp",
         disponible: true
     },
     {
         nombre: "Pocky Fresa 45gr",
-        precio: 43,
+        precio: 42,
         categoria: "Galletas",
         imagen: "../imagenes/productos/pocky-fresa-40gr.webp",
         disponible: true
@@ -113,49 +113,49 @@ const productos = [
     },
     {
         nombre: "Royal Mochi Coco 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-coco-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Cheesecake Fresa 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-cheesecake-fresa-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Caramelo 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-caramelo-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Chocolate 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-chocolate-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Cacahuate 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-cacahuate-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Chocomenta 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-chocomenta-120gr.webp",
         disponible: true
     },
     {
         nombre: "Royal Mochi Tiramisu 120gr",
-        precio: 53,
+        precio: 52,
         categoria: "Dulces",
         imagen: "../imagenes/productos/royal-mochi-tiramisu-120gr.webp",
         disponible: true
