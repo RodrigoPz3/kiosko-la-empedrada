@@ -2,7 +2,7 @@ const productos = [
     // BULDAK CARBONARA
     {
         nombre: "Buldak Carbonara",
-        imagen: "imagenes/buldak-carbonara.webp",
+        imagen: "imagenes/productos/buldak-ramen-carbonara-130gr-10pz.webp",
         disponible: true,
 
         precios: [
