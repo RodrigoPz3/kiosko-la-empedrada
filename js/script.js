@@ -4,41 +4,59 @@ const contenedor = document.getElementById("productos");
 const categorias = document.querySelectorAll(".categorias li");
 
 function mostrarProductos(listaProductos){
+
     contenedor.innerHTML = "";
 
     listaProductos.forEach(producto => {
 
-        const precioDesde = producto.precios[producto.precios.length - 1].precio;
+        const precioDesde = Math.min(...producto.precios.map(p => p.precio));
 
-const escalas = producto.precios.map(escala => `
-    <div class="escala">
-        <span>${escala.cantidad}</span>
-        <span>$${escala.precio.toFixed(2)}</span>
-    </div>
-`).join("");
+        const escalas = producto.precios.map(escala => `
+            <div class="escala">
+                <span>${escala.titulo}</span>
+                <strong>$${escala.precio.toLocaleString('es-MX',{
+                    minimumFractionDigits:2,
+                    maximumFractionDigits:2
+                })}</strong>
+            </div>
+        `).join("");
 
-contenedor.innerHTML += `
-<div class="tarjeta-producto">
+        contenedor.innerHTML += `
+            <div class="tarjeta-producto">
 
-    <img src="${producto.imagen}" alt="${producto.nombre}">
+                <img src="${producto.imagen}" alt="${producto.nombre}">
 
-    <h3>${producto.nombre}</h3>
+                <h3>${producto.nombre}</h3>
 
-    <p class="desde">Desde</p>
+                <p class="desde">Desde</p>
 
-    <p class="precio">$${precioDesde.toFixed(2)}</p>
+                <p class="precio">
+                    $${precioDesde.toLocaleString('es-MX',{
+                        minimumFractionDigits:2,
+                        maximumFractionDigits:2
+                    })}
+                </p>
 
-    <div class="lista-escalas">
-        ${escalas}
-    </div>
+                <div class="lista-escalas">
+                    ${escalas}
+                </div>
 
-    <button class="${producto.disponible ? 'btn-disponible' : 'btn-agotado'}" disabled>
-        ${producto.disponible ? 'Disponible' : 'Agotado'}
-    </button>
+                <span class="${
+                    producto.disponible
+                    ? 'estado disponible'
+                    : 'estado agotado'
+                }">
+                    ${
+                        producto.disponible
+                        ? '● Disponible'
+                        : '● Agotado'
+                    }
+                </span>
 
-</div>
-`;
+            </div>
+        `;
     });
+
 }
 
 buscador.addEventListener("input",()=>{
