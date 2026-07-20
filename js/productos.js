@@ -59,105 +59,28 @@ const productos = [
         nombre: "Cantabile Cafe Vainilla 230ml 10pz",
         precio: 249,
         categoria: "Bebidas",
-        imagen: "/imagenes/productos/cantabile-cafe-vainilla-230ml.webp",
+        imagen: "/imagenes/productos/cantabile-cafe-230ml-10pz.webp",
         disponible: true
     },
     {
-        nombre: "Cantabile Fresa 230ml 10pz",
+        nombre: "Cantabile Cafe Vainilla 230ml 50pz",
         precio: 249,
         categoria: "Bebidas",
-        imagen: "/imagenes/productos/cantabile-fresa-230ml.webp",
-        disponible: false
+        imagen: "/imagenes/productos/cantabile-cafe-230ml-50pz.webp",
+        disponible: true
     },
     {
         nombre: "Cantabile Sandia 230ml 10pz",
         precio: 249,
         categoria: "Bebidas",
-        imagen: "/imagenes/productos/cantabile-sandia-230ml.webp",
+        imagen: "/imagenes/productos/cantabile-sandia-230ml-10pz.webp",
         disponible: true
     },
     {
-        nombre: "Peelerz Mango 65gr 24pz",
-        precio: 879,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-mango-65gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Peelerz Fresa 65gr 24pz",
-        precio: 879,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-fresa-65gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Peelerz Platano 65gr 24pz",
-        precio: 879,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-platano-65gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Peelerz Piña 65gr 24pz",
-        precio: 879,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-piña-65gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Peelerz Durazno 65gr 24pz",
-        precio: 879,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-durazno-65gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Cacahuate 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-cacahuate-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Caramelo 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-caramelo-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Cheesecake Fresa 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-cheesecake-fresa-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Chocolate 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-chocolate-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Chocomenta 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-chocomenta-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Coco 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-coco-120gr.webp",
-        disponible: false
-    },
-    {
-        nombre: "Royal Mochi Tiramisu 120gr 12pz",
-        precio: 551,
-        categoria: "Dulces",
-        imagen: "/imagenes/productos/royal-mochi-tiramisu-120gr.webp",
-        disponible: false
+        nombre: "Cantabile Sandia 230ml 50pz",
+        precio: 249,
+        categoria: "Bebidas",
+        imagen: "/imagenes/productos/cantabile-sandia-230ml-50pz.webp",
+        disponible: true
     },
 ];

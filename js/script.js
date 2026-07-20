@@ -10,7 +10,10 @@ function mostrarProductos(listaProductos){
             <div class="tarjeta-producto">
                 <img src="${producto.imagen}" alt="${producto.nombre}">
                 <h3>${producto.nombre}</h3>
-                <p class="precio">$${producto.precio.toFixed(2)}</p>
+                <p class="precio">$${producto.precio.toLocaleString('es-MX', {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })}</p>
                 <button class="${producto.disponible ? 'btn-disponible' : 'btn-agotado'}" disabled>
                     ${producto.disponible ? 'Disponible' : 'Agotado'}
                 </button>
