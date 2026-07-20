@@ -8,7 +8,7 @@ const productos = [
     },
     {
         nombre: "Buldak Ramen Carbonara 130gr Caja Con 40pz",
-        precio: 348,
+        precio: 1348,
         categoria: "Sopas",
         imagen: "/imagenes/productos/buldak-ramen-carbonara-130gr-40pz.webp",
         disponible: false
@@ -22,7 +22,7 @@ const productos = [
     },
     {
         nombre: "Buldak Ramen Cream Carbonara 140gr Caja Con 40pz",
-        precio: 348,
+        precio: 1348,
         categoria: "Sopas",
         imagen: "/imagenes/productos/buldak-ramen-cream-carbonara-140gr-40pz.webp",
         disponible: false
@@ -36,16 +36,23 @@ const productos = [
     },
     {
         nombre: "Buldak Ramen Original 140gr Caja Con 40pz",
-        precio: 348,
+        precio: 1348,
         categoria: "Sopas",
         imagen: "/imagenes/productos/buldak-ramen-original-140gr-40pz.webp",
         disponible: false
     },
     {
-        nombre: "Buldak Ramen 2x 140gr 20pz",
-        precio: 687,
+        nombre: "Buldak Ramen 2x 140gr 10pz",
+        precio: 348,
         categoria: "Sopas",
-        imagen: "/imagenes/productos/buldak-ramen-2x-140gr.webp",
+        imagen: "/imagenes/productos/buldak-ramen-2x-140gr-10pz.webp",
+        disponible: false
+    },
+    {
+        nombre: "Buldak Ramen 2x 140gr Caja Con 40pz",
+        precio: 1348,
+        categoria: "Sopas",
+        imagen: "/imagenes/productos/buldak-ramen-2x-140gr-40pz.webp",
         disponible: false
     },
     {
