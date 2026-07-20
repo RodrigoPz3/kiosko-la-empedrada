@@ -130,7 +130,7 @@ const productos = [
             },
             {
                 titulo: "Caja (50 Unidades)",
-                precio: 22.50
+                precio: 24.20
             }
         ]
     },
@@ -149,7 +149,7 @@ const productos = [
             },
             {
                 titulo: "Caja (50 Unidades)",
-                precio: 22.50
+                precio: 24.20
             }
         ]
     },
@@ -168,7 +168,7 @@ const productos = [
             },
             {
                 titulo: "Caja (50 Unidades)",
-                precio: 22.50
+                precio: 24.20
             }
         ]
     },
@@ -187,7 +187,7 @@ const productos = [
             },
             {
                 titulo: "Caja (50 Unidades)",
-                precio: 22.50
+                precio: 24.20
             }
         ]
     },
@@ -206,7 +206,7 @@ const productos = [
             },
             {
                 titulo: "Caja (50 Unidades)",
-                precio: 22.50
+                precio: 24.20
             }
         ]
     },
