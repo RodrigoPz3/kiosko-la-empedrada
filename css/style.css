@@ -220,19 +220,6 @@ main{margin-top:140px;}
     color:#fff;
 }
 
-.btn-disponible,.btn-agotado{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    width:fit-content;
-    margin:15px auto 0;
-    padding:10px 20px;
-    border:none;
-    border-radius:999px;
-    font-size:14px;
-    font-weight:600;
-}
-
 .desde{
     margin:10px 15px 0;
     font-size:13px;
