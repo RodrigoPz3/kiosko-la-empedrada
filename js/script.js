@@ -10,39 +10,34 @@ function mostrarProductos(listaProductos){
 
         const precioDesde = producto.precios[producto.precios.length - 1].precio;
 
-        const escalas = producto.precios.map(escala => `
-            <div class="escala">
-                <span>${escala.cantidad}</span>
-                <strong>$${escala.precio.toFixed(2)}</strong>
-            </div>
-        `).join("");
+const escalas = producto.precios.map(escala => `
+    <div class="escala">
+        <span>${escala.cantidad}</span>
+        <span>$${escala.precio.toFixed(2)}</span>
+    </div>
+`).join("");
 
-        contenedor.innerHTML += `
-            <div class="tarjeta-producto">
+contenedor.innerHTML += `
+<div class="tarjeta-producto">
 
-                <img src="${producto.imagen}" alt="${producto.nombre}">
+    <img src="${producto.imagen}" alt="${producto.nombre}">
 
-                <h3>${producto.nombre}</h3>
+    <h3>${producto.nombre}</h3>
 
-                <p class="desde">Desde</p>
+    <p class="desde">Desde</p>
 
-                <p class="precio">
-                    $${precioDesde.toFixed(2)}
-                </p>
+    <p class="precio">$${precioDesde.toFixed(2)}</p>
 
-                <details class="escalas">
-                    <summary>Ver precios por volumen</summary>
+    <div class="lista-escalas">
+        ${escalas}
+    </div>
 
-                    ${escalas}
+    <button class="${producto.disponible ? 'btn-disponible' : 'btn-agotado'}" disabled>
+        ${producto.disponible ? 'Disponible' : 'Agotado'}
+    </button>
 
-                </details>
-
-                <button class="${producto.disponible ? 'btn-disponible' : 'btn-agotado'}" disabled>
-                    ${producto.disponible ? 'Disponible' : 'Agotado'}
-                </button>
-
-            </div>
-        `;
+</div>
+`;
     });
 }
 
