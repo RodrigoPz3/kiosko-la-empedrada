@@ -239,19 +239,49 @@ const productos = [
         imagen: "/imagenes/productos/peelerz-mango-65gr-24pz.webp",
         disponible: false
     },
-    // PEELERZ DURAZNO
+    // PEELERZ PIÑA
     {
-        nombre: "Peelerz Durazno 65gr 10pz",
+        nombre: "Peelerz Piña 65gr 10pz",
         precio: 378,
         categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-durazno-65gr-10pz.webp",
+        imagen: "/imagenes/productos/peelerz-piña-65gr-10pz.webp",
         disponible: true
     },
     {
-        nombre: "Peelerz Durazno 65gr 24pz",
+        nombre: "Peelerz Piña 65gr 24pz",
         precio: 839,
         categoria: "Dulces",
-        imagen: "/imagenes/productos/peelerz-durazno-65gr-24pz.webp",
+        imagen: "/imagenes/productos/peelerz-piña-65gr-24pz.webp",
+        disponible: false
+    },
+    // PEELERZ PLATANO
+    {
+        nombre: "Peelerz Platano 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-platano-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Platano 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-platano-65gr-24pz.webp",
+        disponible: true
+    },
+    // PEELERZ UVA
+    {
+        nombre: "Peelerz Uva 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-uva-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Uva 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-uva-65gr-24pz.webp",
         disponible: false
     },
 ];
