@@ -1,14 +1,14 @@
 const productos = [
     {
-        nombre: "Buldak Ramen Carbonara 130gr 20pz",
-        precio: 687,
+        nombre: "Buldak Ramen Carbonara 130gr 10pz",
+        precio: 348,
         categoria: "Sopas",
         imagen: "/imagenes/productos/buldak-ramen-carbonara-130gr.webp",
         disponible: true
     },
     {
-        nombre: "Buldak Ramen Cream Carbonara 140gr 20pz",
-        precio: 687,
+        nombre: "Buldak Ramen Cream Carbonara 140gr 10pz",
+        precio: 348,
         categoria: "Sopas",
         imagen: "/imagenes/productos/buldak-ramen-cream-carbonara-140gr.webp",
         disponible: false
