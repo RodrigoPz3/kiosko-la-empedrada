@@ -226,4 +226,79 @@ const productos = [
             },
         ]
     },
+    {
+        nombre: "Peelerz Fresa",
+        imagen: "imagenes/productos/peelerz-fresa.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
+    {
+        nombre: "Peelerz Mango",
+        imagen: "imagenes/productos/peelerz-mango.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
+    {
+        nombre: "Peelerz Piña",
+        imagen: "imagenes/productos/peelerz-piña.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
+    {
+        nombre: "Peelerz Platano",
+        imagen: "imagenes/productos/peelerz-platano.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
+    {
+        nombre: "Peelerz Uva",
+        imagen: "imagenes/productos/peelerz-uva.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
 ];
