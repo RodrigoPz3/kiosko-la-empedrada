@@ -92,14 +92,14 @@ const productos = [
     // MOCHIS CACAHUATE
     {
         nombre: "Mochis Cacahuate 120gr 5pz",
-        precio: 248,
+        precio: 244,
         categoria: "Bebidas",
         imagen: "/imagenes/productos/mochis-cacahuate-120gr-5pz.webp",
         disponible: true
     },
     {
         nombre: "Mochis Cacahuate 120gr 12pz",
-        precio: 1178,
+        precio: 568,
         categoria: "Bebidas",
         imagen: "/imagenes/productos/mochis-cacahuate-120gr-12pz.webp",
         disponible: false
