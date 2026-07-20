@@ -93,15 +93,165 @@ const productos = [
     {
         nombre: "Mochis Cacahuate 120gr 5pz",
         precio: 244,
-        categoria: "Bebidas",
+        categoria: "Dulces",
         imagen: "/imagenes/productos/mochis-cacahuate-120gr-5pz.webp",
         disponible: true
     },
     {
         nombre: "Mochis Cacahuate 120gr 12pz",
         precio: 568,
-        categoria: "Bebidas",
+        categoria: "Dulces",
         imagen: "/imagenes/productos/mochis-cacahuate-120gr-12pz.webp",
+        disponible: false
+    },
+    // MOCHIS CARAMELO
+    {
+        nombre: "Mochis Caramelo 120gr 5pz",
+        precio: 244,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-caramelo-120gr-5pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Mochis Caramelo 120gr 12pz",
+        precio: 568,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-caramelo-120gr-12pz.webp",
+        disponible: false
+    },
+    // MOCHIS CHOCOLATE
+    {
+        nombre: "Mochis Chocolate 120gr 5pz",
+        precio: 244,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-chocolate-120gr-5pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Mochis Chocolate 120gr 12pz",
+        precio: 568,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-chocolate-120gr-12pz.webp",
+        disponible: false
+    },
+    // MOCHIS CHOCOMENTA
+    {
+        nombre: "Mochis Chocomenta 120gr 5pz",
+        precio: 244,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-chocomenta-120gr-5pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Mochis Chocomenta 120gr 12pz",
+        precio: 568,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-chocomenta-120gr-12pz.webp",
+        disponible: false
+    },
+    // MOCHIS COCO
+    {
+        nombre: "Mochis Coco 120gr 5pz",
+        precio: 244,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-coco-120gr-5pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Mochis Coco 120gr 12pz",
+        precio: 568,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-coco-120gr-12pz.webp",
+        disponible: false
+    },
+    // MOCHIS FRESA
+    {
+        nombre: "Mochis Fresa 120gr 5pz",
+        precio: 244,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-fresa-120gr-5pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Mochis Fresa 120gr 12pz",
+        precio: 568,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/mochis-fresa-120gr-12pz.webp",
+        disponible: false
+    },
+    // PEELERZ DURAZNO
+    {
+        nombre: "Peelerz Durazno 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Durazno 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-24pz.webp",
+        disponible: false
+    },
+    // PEELERZ DURAZNO
+    {
+        nombre: "Peelerz Durazno 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Durazno 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-24pz.webp",
+        disponible: true
+    },
+    // PEELERZ FRESA
+    {
+        nombre: "Peelerz Fresa 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-fresa-65gr-10pz.webp",
+        disponible: false
+    },
+    {
+        nombre: "Peelerz Fresa 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-fresa-65gr-24pz.webp",
+        disponible: false
+    },
+    // PEELERZ MANGO
+    {
+        nombre: "Peelerz Mango 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-mango-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Mango 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-mango-65gr-24pz.webp",
+        disponible: false
+    },
+    // PEELERZ DURAZNO
+    {
+        nombre: "Peelerz Durazno 65gr 10pz",
+        precio: 378,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-10pz.webp",
+        disponible: true
+    },
+    {
+        nombre: "Peelerz Durazno 65gr 24pz",
+        precio: 839,
+        categoria: "Dulces",
+        imagen: "/imagenes/productos/peelerz-durazno-65gr-24pz.webp",
         disponible: false
     },
 ];
