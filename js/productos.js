@@ -1,4 +1,5 @@
 const productos = [
+    //BULDAK BULDAK BULDAK BULDAK BULDAK BULDAK
     {
         nombre: "Buldak Carbonara",
         imagen: "imagenes/productos/buldak-ramen-carbonara.webp",
@@ -110,6 +111,102 @@ const productos = [
             {
                 titulo: "Caja (40 Unidades)",
                 precio: 32.90
+            }
+        ]
+    },
+    //CANTABILE CANTABILE CANTABILE CANTABILE CANTABILE CANTABILE
+    {
+        nombre: "Cantabile Sandia",
+        imagen: "imagenes/productos/cantabile-sandia.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 26.80
+            },
+            {
+                titulo: "Caja (30 Unidades)",
+                precio: 25.80
+            },
+            {
+                titulo: "Caja (50 Unidades)",
+                precio: 22.50
+            }
+        ]
+    },
+    {
+        nombre: "Cantabile Manzana",
+        imagen: "imagenes/productos/cantabile-manzana.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 26.80
+            },
+            {
+                titulo: "Caja (30 Unidades)",
+                precio: 25.80
+            },
+            {
+                titulo: "Caja (50 Unidades)",
+                precio: 22.50
+            }
+        ]
+    },
+    {
+        nombre: "Cantabile Limonada",
+        imagen: "imagenes/productos/cantabile-limonada.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 26.80
+            },
+            {
+                titulo: "Caja (30 Unidades)",
+                precio: 25.80
+            },
+            {
+                titulo: "Caja (50 Unidades)",
+                precio: 22.50
+            }
+        ]
+    },
+    {
+        nombre: "Cantabile Fresa",
+        imagen: "imagenes/productos/cantabile-fresa.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 26.80
+            },
+            {
+                titulo: "Caja (30 Unidades)",
+                precio: 25.80
+            },
+            {
+                titulo: "Caja (50 Unidades)",
+                precio: 22.50
+            }
+        ]
+    },
+    {
+        nombre: "Cantabile Café",
+        imagen: "imagenes/productos/cantabile-cafe.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 26.80
+            },
+            {
+                titulo: "Caja (30 Unidades)",
+                precio: 25.80
+            },
+            {
+                titulo: "Caja (50 Unidades)",
+                precio: 22.50
             }
         ]
     },
