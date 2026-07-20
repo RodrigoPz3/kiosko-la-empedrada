@@ -19,8 +19,8 @@ const productos = [
         ]
     },
     {
-        nombre: "Buldak Carbonara",
-        imagen: "imagenes/productos/buldak-ramen-carbonara.webp",
+        nombre: "Buldak Cream Carbonara",
+        imagen: "imagenes/productos/buldak-ramen-cream-carbonara.webp",
         disponible: true,
         precios: [
             {
