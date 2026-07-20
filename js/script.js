@@ -5,18 +5,42 @@ const categorias = document.querySelectorAll(".categorias li");
 
 function mostrarProductos(listaProductos){
     contenedor.innerHTML = "";
+
     listaProductos.forEach(producto => {
+
+        const precioDesde = producto.precios[producto.precios.length - 1].precio;
+
+        const escalas = producto.precios.map(escala => `
+            <div class="escala">
+                <span>${escala.cantidad}</span>
+                <strong>$${escala.precio.toFixed(2)}</strong>
+            </div>
+        `).join("");
+
         contenedor.innerHTML += `
             <div class="tarjeta-producto">
+
                 <img src="${producto.imagen}" alt="${producto.nombre}">
+
                 <h3>${producto.nombre}</h3>
-                <p class="precio">$${producto.precio.toLocaleString('es-MX', {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2
-                })}</p>
+
+                <p class="desde">Desde</p>
+
+                <p class="precio">
+                    $${precioDesde.toFixed(2)}
+                </p>
+
+                <details class="escalas">
+                    <summary>Ver precios por volumen</summary>
+
+                    ${escalas}
+
+                </details>
+
                 <button class="${producto.disponible ? 'btn-disponible' : 'btn-agotado'}" disabled>
                     ${producto.disponible ? 'Disponible' : 'Agotado'}
                 </button>
+
             </div>
         `;
     });

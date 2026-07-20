@@ -197,6 +197,38 @@ main{margin-top:140px;}
     font-weight:600;
 }
 
+.desde{
+    margin:10px 15px 0;
+    font-size:13px;
+    color:#777;
+    text-transform:uppercase;
+    letter-spacing:.8px;
+}
+
+.escalas{
+    margin:0 15px;
+}
+
+.escalas summary{
+    cursor:pointer;
+    color:#ff914d;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.escala{
+    display:flex;
+    justify-content:space-between;
+    padding:6px 0;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+}
+
+.escala:last-child{
+    border-bottom:none;
+}
+
 .btn-disponible{background:#e8f7ee;color:#2f8f5b;}
 .btn-agotado{background:#fdeeee;color:#c45b5b;}
 
