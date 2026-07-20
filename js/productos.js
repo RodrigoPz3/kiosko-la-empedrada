@@ -210,4 +210,20 @@ const productos = [
             }
         ]
     },
+    //PEELERZ PEELERZ PEELERZ PEELERZ PEELERZ PEELERZ
+    {
+        nombre: "Peelerz Durazno",
+        imagen: "imagenes/productos/peelerz-durazno.webp",
+        disponible: true,
+        precios: [
+            {
+                titulo: "10 Unidades",
+                precio: 37.90
+            },
+            {
+                titulo: "Caja (24 Unidades)",
+                precio: 36.13
+            },
+        ]
+    },
 ];
